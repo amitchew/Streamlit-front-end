@@ -54,8 +54,8 @@ def main():
         BMI, DiabetesPedigreeFunction, Age])
     st.success(diagnosis)
     
-# if __name__ == '__main__':
-#     main()
+ if __name__ == '__main__':
+     main()
     
 
     
