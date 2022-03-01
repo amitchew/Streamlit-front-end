@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import streamlit as st
-loaded_model = pickle.load(open(r'C:\Users\ragna\Desktop\ML projects\trained_model.sav', 'rb'))
+loaded_model = pickle.load(open(r'trained_model.sav', 'rb'))
 
 # Creating a function 
 def diabetes_prediction(input_data):
