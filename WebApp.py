@@ -40,6 +40,7 @@ def main():
     
     # giving a title
     st.title('Diabetes Prediction Web App')
+    st.header('by Abamitchew')
     
     
     # getting the input data from the user
